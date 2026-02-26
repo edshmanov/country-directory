@@ -1,18 +1,1 @@
-{
-  "functions": { "pages/api/**": { "maxDuration": 10 } }
-}
-```
-
-Commit changes →
-
-## Файл 4 из 11: `.gitignore`
-
-Сразу после — ещё один: **"Add file"** → **"Create new file"**
-
-Имя: **`.gitignore`**
-```
-node_modules/
-.next/
-.vercel/
-.env
-.env.local
+{}
