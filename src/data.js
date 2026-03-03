@@ -5,16 +5,26 @@
 // ======================================================
 
 export const CATS = [
-  { id: "produce", en: "Farm Produce", uk: "Продукти", ru: "Продукты", icon: "🥚", color: "#4a7c59",
-    subs: [{ en: "Eggs", uk: "Яйця", ru: "Яйца" }, { en: "Vegetables", uk: "Овочі", ru: "Овощи" }, { en: "Fruits", uk: "Фрукти", ru: "Фрукты" }, { en: "Dairy", uk: "Молочка", ru: "Молочка" }, { en: "Honey", uk: "Мед", ru: "Мёд" }, { en: "Meats", uk: "М'ясо", ru: "Мясо" }, { en: "Baked Goods", uk: "Випічка", ru: "Выпечка" }] },
-  { id: "garden", en: "Garden & Farm", uk: "Сад і город", ru: "Сад и огород", icon: "🌱", color: "#2d6a4f",
-    subs: [{ en: "Seeds", uk: "Насіння", ru: "Семена" }, { en: "Seedlings", uk: "Розсада", ru: "Рассада" }, { en: "Tools", uk: "Інструменти", ru: "Инструменты" }, { en: "Fertilizer", uk: "Добрива", ru: "Удобрения" }, { en: "Greenhouses", uk: "Теплиці", ru: "Теплицы" }] },
-  { id: "construction", en: "Construction", uk: "Будівництво", ru: "Строительство", icon: "🏗️", color: "#7f5539",
-    subs: [{ en: "Lumber", uk: "Пиломатеріали", ru: "Пиломатериалы" }, { en: "Barns", uk: "Амбари", ru: "Амбары" }, { en: "Fencing", uk: "Паркани", ru: "Заборы" }, { en: "Roofing", uk: "Покрівля", ru: "Кровля" }, { en: "Concrete", uk: "Бетон", ru: "Бетон" }] },
-  { id: "services", en: "Services", uk: "Послуги", ru: "Услуги", icon: "🔧", color: "#5a6e4e",
-    subs: [{ en: "Home Building", uk: "Будівництво будинків", ru: "Строительство домов" }, { en: "Barns / Sheds", uk: "Амбари / Сараї", ru: "Амбары / Сараи" }, { en: "Babysitting", uk: "Няня", ru: "Няня" }, { en: "Landscaping", uk: "Ландшафт", ru: "Ландшафт" }, { en: "Repairs", uk: "Ремонт", ru: "Ремонт" }, { en: "Cleaning", uk: "Прибирання", ru: "Уборка" }, { en: "Hauling", uk: "Перевезення", ru: "Перевозки" }] },
-  { id: "goods", en: "General Store", uk: "Товари", ru: "Товары", icon: "🏪", color: "#6c584c",
-    subs: [{ en: "Hardware", uk: "Господарчі", ru: "Хозтовары" }, { en: "Furniture", uk: "Меблі", ru: "Мебель" }, { en: "Fabrics", uk: "Тканини", ru: "Ткани" }, { en: "Kitchenware", uk: "Посуд", ru: "Посуда" }, { en: "Candles & Soap", uk: "Свічки та мило", ru: "Свечи и мыло" }] },
+  {
+    id: "produce", en: "Farm Produce", uk: "Продукти", ru: "Продукты", icon: "🥚", color: "#4a7c59",
+    subs: [{ en: "Eggs", uk: "Яйця", ru: "Яйца" }, { en: "Vegetables", uk: "Овочі", ru: "Овощи" }, { en: "Fruits", uk: "Фрукти", ru: "Фрукты" }, { en: "Dairy", uk: "Молочка", ru: "Молочка" }, { en: "Honey", uk: "Мед", ru: "Мёд" }, { en: "Meats", uk: "М'ясо", ru: "Мясо" }, { en: "Baked Goods", uk: "Випічка", ru: "Выпечка" }]
+  },
+  {
+    id: "garden", en: "Garden & Farm", uk: "Сад і город", ru: "Сад и огород", icon: "🌱", color: "#2d6a4f",
+    subs: [{ en: "Seeds", uk: "Насіння", ru: "Семена" }, { en: "Seedlings", uk: "Розсада", ru: "Рассада" }, { en: "Tools", uk: "Інструменти", ru: "Инструменты" }, { en: "Fertilizer", uk: "Добрива", ru: "Удобрения" }, { en: "Greenhouses", uk: "Теплиці", ru: "Теплицы" }]
+  },
+  {
+    id: "construction", en: "Construction", uk: "Будівництво", ru: "Строительство", icon: "🏗️", color: "#7f5539",
+    subs: [{ en: "Lumber", uk: "Пиломатеріали", ru: "Пиломатериалы" }, { en: "Barns", uk: "Амбари", ru: "Амбары" }, { en: "Fencing", uk: "Паркани", ru: "Заборы" }, { en: "Roofing", uk: "Покрівля", ru: "Кровля" }, { en: "Concrete", uk: "Бетон", ru: "Бетон" }]
+  },
+  {
+    id: "services", en: "Services", uk: "Послуги", ru: "Услуги", icon: "🔧", color: "#5a6e4e",
+    subs: [{ en: "Home Building", uk: "Будівництво будинків", ru: "Строительство домов" }, { en: "Barns / Sheds", uk: "Амбари / Сараї", ru: "Амбары / Сараи" }, { en: "Babysitting", uk: "Няня", ru: "Няня" }, { en: "Landscaping", uk: "Ландшафт", ru: "Ландшафт" }, { en: "Repairs", uk: "Ремонт", ru: "Ремонт" }, { en: "Cleaning", uk: "Прибирання", ru: "Уборка" }, { en: "Hauling", uk: "Перевезення", ru: "Перевозки" }]
+  },
+  {
+    id: "goods", en: "General Store", uk: "Товари", ru: "Товары", icon: "🏪", color: "#6c584c",
+    subs: [{ en: "Hardware", uk: "Господарчі", ru: "Хозтовары" }, { en: "Furniture", uk: "Меблі", ru: "Мебель" }, { en: "Fabrics", uk: "Тканини", ru: "Ткани" }, { en: "Kitchenware", uk: "Посуд", ru: "Посуда" }, { en: "Candles & Soap", uk: "Свічки та мило", ru: "Свечи и мыло" }]
+  },
 ];
 
 // ======================================================
@@ -148,6 +158,22 @@ export const STORES = [
     huk: "Пн-Пт 6:30-16:30",
     hru: "Пн-Пт 6:30-16:30",
     tags: ["amish", "home building"],
+    photos: [],
+  },
+  {
+    id: "s9",
+    name: "Willow Creek Store",
+    cat: "goods",
+    subs: ["Hardware", "Kitchenware", "Fabrics"],
+    addr: "5160 W 400 S, Berne, IN 46711",
+    phone: "+1 260-334-5080",
+    en: "Amish general store in Berne. Wide selection of dry goods, hardware, fabric, and household items. A true country store experience.",
+    uk: "Амішський загальний магазин у Берні. Великий вибір бакалеї, господарських товарів, тканин та предметів побуту.",
+    ru: "Амишский магазин в Берне. Большой выбор бакалеи, хозтоваров, тканей и предметов быта.",
+    hen: "Mon-Wed 8AM-5:30PM | Thu 8AM-8PM | Fri 8AM-5:30PM | Sat 8AM-3PM | Sun Closed",
+    huk: "Пн-Ср 8:00-17:30 | Чт 8:00-20:00 | Пт 8:00-17:30 | Сб 8:00-15:00 | Нд зачинено",
+    hru: "Пн-Ср 8:00-17:30 | Чт 8:00-20:00 | Пт 8:00-17:30 | Сб 8:00-15:00 | Вс закрыто",
+    tags: ["amish", "general store", "berne"],
     photos: [],
   },
   // ======================================================
