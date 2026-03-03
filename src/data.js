@@ -174,7 +174,15 @@ export const STORES = [
     huk: "Пн-Ср 8:00-17:30 | Чт 8:00-20:00 | Пт 8:00-17:30 | Сб 8:00-15:00 | Нд зачинено",
     hru: "Пн-Ср 8:00-17:30 | Чт 8:00-20:00 | Пт 8:00-17:30 | Сб 8:00-15:00 | Вс закрыто",
     tags: ["amish", "general store", "berne"],
-    photos: [],
+    photos: [
+      { url: "https://gz0.googleusercontent.com/gps-cs-s/AHVAwerAIwkOQRhiVX43krfi2qjzKh-UagdHAyMN6YTxuJI4wcgansF_c7mqp-tHs6pZcN5jdBLjLQAqpEqgDuaZQSe5htG_GPGbjlrmdn6_-5sR33nz4j8GcXaWWBdAeQZjRhPJlVUQ2w=w600-h800-k-no", caption: "", status: "approved" },
+      { url: "https://gz0.googleusercontent.com/gps-cs-s/AHVAwepKq-SfQYD8YIz6G2tSe2ljPeJB0hwT_6BZW0lqNsEAT3jLTYDREe0G0etT5k4JgHSyqmpfNYACTVlKFumw1ef4zfYegeyvU_NKWMwC8YmMAH2UDKLu78fTiYS04oa75eMBbePN=w600-h800-k-no", caption: "", status: "approved" },
+      { url: "https://gz0.googleusercontent.com/grass-cs/ABsKjrycQu3bp0Mlg_PuoRQZ0L8bo9RZFwdmrwd3o-cy-AgmRsgzfu6wlO6eHceXYC8ONefaqblZm5z5yKy5RwK_F9npPTTgnMS_ns8AcLacrUFlLaYVohWJEFKSZ1idC8HQ2D0AoD0W=w600-h800-k-no", caption: "bulk items", status: "approved" },
+      { url: "https://gz0.googleusercontent.com/gps-cs-s/AHVAweqZebiJ2B6sjf0Hm4c-uPE-hEXgid57Dv5YJAVJq3_5CzrgFjl1HEe8lOmlO2NO23s2GeVNvF_uaO1tld0NFIg5api9OhS_N7cBI4ZcCO3x45WsAC7Q2vZOtjmXw9oGkm4cbk95=w600-h800-k-no", caption: "", status: "approved" },
+      { url: "https://gz0.googleusercontent.com/gps-cs-s/AHVAweqVsDieAigzl7fCzvVUMxl2h-fztI8KsrGb4QVjT8xirXqEyYfcnuM9H8fSJuA4gj2JeGR184q-as9rp0mPrwbIxWsRcQVfriFYZmERzfAqwiKhYXmPekvM7A5ljzdR0TXkWdU=w600-h800-k-no", caption: "", status: "approved" },
+      { url: "https://gz0.googleusercontent.com/grass-cs/ABsKjrzCyl5nOjiyQG-1BV1Ee8aWV5ZqWRTN567b5e1NS1PwIoGJa0OprPjpHP5eKTw5V_dcghdiZ4f3WLZ4Q4md3UShKuLjPFXzIP0-0nReeJvQZ7Y_FrAQsyXUKWanzvFR3dwk3HyWUw=w600-h800-k-no", caption: "store cleanliness", status: "approved" },
+    ],
+
   },
   // ======================================================
   // ДОБАВЬТЕ НОВЫЕ МАГАЗИНЫ НИЖЕ ПО ОБРАЗЦУ ВЫШЕ
