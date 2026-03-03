@@ -15,6 +15,7 @@ export const T = {
     photoSelected: "Photo selected ✓", onReview: "Under review",
     selectCat: "Select...", photos: "Photos", photoAndInfo: "Add Photo & Info",
     addInfoTitle: "Add Photo & Info", photoOptional: "Photo (optional)", saving: "Saving...",
+    editPlace: "Edit", editPlaceTitle: "Edit Place", saveChanges: "Save Changes", editSaved: "Changes saved!",
   },
   uk: {
     subtitle: "Сільський довідник Індіани", search: "Пошук: яйця, lumber, Goshen...",
@@ -32,6 +33,7 @@ export const T = {
     photoSelected: "Фото обрано ✓", onReview: "На модерації",
     selectCat: "Оберіть...", photos: "Фотографії", photoAndInfo: "Додати фото та інфо",
     addInfoTitle: "Додати фото та інфо", photoOptional: "Фото (необов'язково)", saving: "Збереження...",
+    editPlace: "Редагувати", editPlaceTitle: "Редагувати місце", saveChanges: "Зберегти зміни", editSaved: "Зміни збережено!",
   },
   ru: {
     subtitle: "Сельский справочник Индианы", search: "Поиск: яйца, lumber, Goshen...",
@@ -49,6 +51,7 @@ export const T = {
     photoSelected: "Фото выбрано ✓", onReview: "На модерации",
     selectCat: "Выберите...", photos: "Фотографии", photoAndInfo: "Добавить фото и инфо",
     addInfoTitle: "Добавить фото и инфо", photoOptional: "Фото (необязательно)", saving: "Сохранение...",
+    editPlace: "Редактировать", editPlaceTitle: "Редактировать место", saveChanges: "Сохранить изменения", editSaved: "Изменения сохранены!",
   },
 };
 export const LANGS = [
