@@ -1,0 +1,4 @@
+import { LANGS } from "../i18n";
+export default function LangSwitch({ lang, setLang, dark }) {
+  return (<div style={{ display: "flex", background: dark ? "rgba(255,255,255,0.12)" : "#f0ebe3", borderRadius: 20, overflow: "hidden", border: dark ? "1px solid rgba(255,255,255,0.25)" : "1px solid #d4c9b8", flexShrink: 0 }}>{LANGS.map((l, i) => (<button key={l.code} onClick={() => setLang(l.code)} style={{ background: lang === l.code ? (dark ? "rgba(255,255,255,0.3)" : "#3d2c1e") : "transparent", color: lang === l.code ? "#fff" : (dark ? "rgba(255,255,255,0.7)" : "#8b7355"), border: "none", padding: "6px 10px", fontSize: 12, fontWeight: 700, cursor: "pointer", borderRight: i < LANGS.length - 1 ? (dark ? "1px solid rgba(255,255,255,0.15)" : "1px solid #d4c9b8") : "none" }}>{l.flag ? l.flag + " " : ""}{l.label}</button>))}</div>);
+}

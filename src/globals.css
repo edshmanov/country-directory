@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+:root { --hd: 'DM Serif Display', Georgia, serif; --bd: 'Source Sans 3', 'Trebuchet MS', sans-serif; --dk: #3d2c1e; --md: #6c584c; --lt: #8b7355; --cr: #faf6f0; --cd: #fffdf8; --br: #e0d5c3; --gn: #4a7c59; --gb: #eef5e8; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { margin: 0; background: var(--cr); font-family: var(--bd); color: var(--dk); -webkit-font-smoothing: antialiased; }
+input, textarea, select { display: block; width: 100%; padding: 11px 12px; border-radius: 8px; border: 1.5px solid var(--br); font-family: var(--bd); font-size: 14px; color: var(--dk); background: #fff; margin-top: 5px; outline: none; }
+input:focus, textarea:focus, select:focus { border-color: var(--gn); }
+button { font-family: var(--bd); }
