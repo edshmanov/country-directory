@@ -1,14 +1,17 @@
-import { put, list } from '@vercel/blob';
-const { STORES } = require('../../src/data');
+import { put, list, head } from '@vercel/blob';
+import { STORES } from '../../src/data';
 async function getStores() {
   try {
     const { blobs } = await list({ prefix: 'stores.json' });
-    if (blobs.length > 0) { const res = await fetch(blobs[0].url); return await res.json(); }
-  } catch (e) {}
+    if (blobs.length > 0) {
+      const res = await fetch(blobs[0].url);
+      if (res.ok) return await res.json();
+    }
+  } catch (e) { }
   return null;
 }
 async function saveStores(data) {
-  return put('stores.json', JSON.stringify(data), { access: 'public', addRandomSuffix: false });
+  return put('stores.json', JSON.stringify(data), { access: 'public', addRandomSuffix: false, allowOverwrite: true });
 }
 export default async function handler(req, res) {
   if (req.method === 'GET') {
